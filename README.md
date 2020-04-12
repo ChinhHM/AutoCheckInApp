@@ -15,10 +15,10 @@ Can be found in:
     * Install SAM CLI from: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html
 - Change to Backend folder
 - Edit template.yaml and change the following parameters:
-    BUCKETNAME
-    REKOGNITIONCOLLECTIONNAME
-    DYNAMOTABLENAME
-    REKOGNITIONFACESIMILARITYTHRESHOLD
+    * BUCKETNAME
+    * REKOGNITIONCOLLECTIONNAME
+    * DYNAMOTABLENAME
+    * REKOGNITIONFACESIMILARITYTHRESHOLD
 - Create the respective services:
     * S3 bucket (to store uploaded images)
     * DynamoDB table
